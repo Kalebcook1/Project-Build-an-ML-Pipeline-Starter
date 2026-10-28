@@ -58,42 +58,42 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact", 
         type = str, ## INSERT TYPE HERE: str, float or int,
-        help = "Name of the raw data artifact in W&B to clean." ## INSERT DESCRIPTION HERE,
+        help = "Name of the raw data artifact in W&B to clean.", ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
         type = str, ## INSERT TYPE HERE: str, float or int,
-        help = "Name of the cleaned data artificat to create."## INSERT DESCRIPTION HERE,
+        help = "Name of the cleaned data artificat to create.", ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
         type = str, ## INSERT TYPE HERE: str, float or int,
-        help = "Type of the output artifact." ## INSERT DESCRIPTION HERE,
+        help = "Type of the output artifact.", ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
         type = str, ## INSERT TYPE HERE: str, float or int,
-        help = "Short description of the cleaned output artifact." ## INSERT DESCRIPTION HERE,
+        help = "Short description of the cleaned output artifact.", ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--min_price", 
         type = float, ## INSERT TYPE HERE: str, float or int,
-        help = "Minimum nightly price to keep; cheaper listings are dropped as outliers" ## INSERT DESCRIPTION HERE,
+        help = "Minimum nightly price to keep; cheaper listings are dropped as outliers", ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--max_price",
         type = float, ## INSERT TYPE HERE: str, float or int,
-        help = "Maximum nightly price to keep; pricier listings are dropped as outliers" ## INSERT DESCRIPTION HERE,
+        help = "Maximum nightly price to keep; pricier listings are dropped as outliers", ## INSERT DESCRIPTION HERE,
         required = True
     )
 
