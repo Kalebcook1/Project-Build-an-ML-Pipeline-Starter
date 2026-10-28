@@ -6,6 +6,14 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 
 In this project you will build such a pipeline.
 
+## Project links
+
+- W&B project: https://wandb.ai/kaleb-cook-western-governors-university/nyc_airbnb
+- GitHub repository: https://github.com/Kalebcook1/Project-Build-an-ML-Pipeline-Starter
+
+## Pipeline lineage
+![Pipeline lineage in W&B](images/pipeline_lineage.png)
+
 ## Table of contents
 
 - [Preliminary steps](#preliminary-steps)
@@ -179,3 +187,6 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+
+[def]: downloads/lineage_pipeline.png
