@@ -14,6 +14,9 @@ In this project you will build such a pipeline.
 ## Pipeline lineage
 ![Pipeline lineage in W&B](images/pipeline_lineage.png)
 
+## Referece tag
+![clean_data.csv reference alias in W&B](images/reference_tag.png)
+
 ## Table of contents
 
 - [Preliminary steps](#preliminary-steps)
